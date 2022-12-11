@@ -23,3 +23,9 @@ Hello everyone! Hola amigos! I'm Julia Buts, and I'm a former investigator who w
 - GeekBrains - "Programming Fundamentals"
 - Tomsk State University - "Web programmer: from scratch to the first projects"
 - Stepik - "Web development for beginners: HTML and CSS"
+
+## English
+**Elementary**
+
+## Spanish
+**Basic**
