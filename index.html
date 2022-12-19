@@ -4,10 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/rs.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>cv</title>
 </head>
 <body>
+    <header>
+    <div class="container">
+    <nav>
+      <ul>
+        <li><a href=#contacts>Contacts</a></li>
+        <li><a href=#about_me>About me </a></li>
+        <li><a href=#skills>Skills</a></li>
+        <li><a href=#code>Code</a></li>
+        <li><a href=#education>Education</a></li>
+        <li><a href=#languages>Languages</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main class="main-container">
+    <div class="container">
 <h1>Julia Buts</h1>
+<img src="assets/photo2.jpg" alt="my_photo">
+<section class="contacts" id="contacts">
+    <h2>Contacts</h2>
+    <ul>
+        <li><a href="#">+79104560433</a></li>
+        <li><a href="#">nana_tundrick@rambler.ru</a></li>
+        <li><a href="#">https://t.me/L_Bee</a></li>
+        <li><a href="#">https://github.com/Julia-But</a></li>
+    </ul>
+</section>
+<section class="about_me" id="about_me">
+    <h2>About me</h2>
+    <p>Hello everyone! Hola amigos! I'm Julia Buts, and I'm a former investigator who wants to become a cool web developer. Why did I changed my occupation? Because I like to learn new things and see the result.</p>
+</section>
+<section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Wordpress</li>
+        <li>Tilda</li>
+    </ul>
+</section>
+<section class="code" id="code">
+    <h2>Code</h2>
+    <pre>
+    <code>
+    alert ("Вас приветствует конвертер валют");
+    alert ('Курс 1 евро на сегодня 88,93 руб');
+    alert ("Курс 1 доллара на сегодня 78,81 руб");
+            
+    var eur = 88.93;
+    var usd = 78.81;
+            
+    var a = +prompt ("Введите сумму в рублях");
+    a = parseInt (a);   
+            
+    var b = a / eur;
+    alert (b + "  евро");
+            
+     var a = +prompt ("Введите сумму в рублях");
+    var b = a / usd;
+     alert (b + "  доллара");
+        
+    </code>
+    </pre>
+</section>
+<section class="education" id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>Academy of Economic Security of the Ministry of Internal Affairs of Russia. Lawyer</li>
+        <li>"Business Weekend" Project of the Government of Moscow - "Creating a Landing Page"</li>
+        <li>Neotology - "Basics of site layout"</li>
+        <li>GeekBrains - "Programming Fundamentals"</li>
+        <li>Tomsk State University - "Web programmer: from scratch to the first projects"</li>
+        <li>Stepik - "Web development for beginners: HTML and CSS"</li>
+    </ul>
+</section>
+<section class="languages" id="languages">
+    <h2>Languages</h2>
+    <ul>
+        <li>English - Elementary</li>
+        <li>Spanish - Basic</li>
+    </ul>
+</section>
+</div>
+</main>
+<footer>
+    <div class="container">
+        <a href="https://github.com/Julia-Buts"><img src="assets/logo_git.png" width="145" height="100" alt="logo_git"></a>
+         <p>2022</p>
+         <a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" width="150" height="150" alt="logo"></a>
+     </div>
+
+</footer>
 </body>
 </html>
